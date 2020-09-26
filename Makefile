@@ -12,6 +12,7 @@ SimulateTouch_LDFLAGS = -lsubstrate -lrocketbootstrap
 # libsimulatetouch_LDFLAGS = -lrocketbootstrap
 # libsimulatetouch_INSTALL_PATH = ${THEOS}/lib
 # libsimulatetouch_FRAMEWORKS = UIKit CoreGraphics
+# libsimulatetouch_LINKAGE_TYPE = {dynamic,static}
 
 TOOL_NAME = stouch
 stouch_FILES = main.mm
